@@ -1,4 +1,13 @@
 # Capstone Casting Agency
+The Casting Agency is a simple application that is responsible for viewing, creating, editing, deleting movies and actors. There are three roles: 
+- Casting Assistant
+    Can view actors and movies
+- Casting Director
+    All permissions a Casting Assistant has and Add or delete an actor from the database Modify actors or movies
+- Executive Producer
+    All permissions a Casting Director has and Add or delete a movie from the database
+    
+Motivation: This is the last project in Udacity FullStack NanoDegree program, I applied most of the knowledge and skills I learn from this program 
 
 ## Getting Started
 
@@ -32,13 +41,8 @@ python manage.py db upgrade
 psql -U postgres agency < agency.psql
 ```
 
-## Authentication - Roles
-- Casting Assistant
-    Can view actors and movies
-- Casting Director
-    All permissions a Casting Assistant has and Add or delete an actor from the database Modify actors or movies
-- Executive Producer
-    All permissions a Casting Director has and Add or delete a movie from the database
+## Authentication
+Auth0 information can be found in setup.sh
 
 
 ## Running the server
